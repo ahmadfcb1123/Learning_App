@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+body{
+  /* background: #d2e3ebf0; */
+  background: white;
+
+}
+
+
+/* .App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background: blueviolet
+} */
+
+.app {
+  min-height: 100vh;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+
+
+.pageTitle {
+  /* text-transform: uppercase; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+
+
+.register{
+  width: 40%;
+  /* max-width: 978px; */
+  /* width: 100vw; */
+  display: flex;
+  border: 1px solid #e9ecef;
+  border-radius: 39px 100px 39px 31px;
+  box-shadow: 1px 3px 10px #e9ecef;
+  background-color: white;
+  /* align-items: center; */
+  margin: 150px auto;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register span{
+  color: #adb5bd;
+}
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+#form >   .btn:hover{
+  background-color: #6bc76b;
+  counter-reset: black;
+}
+#form >  input, .btn{
+  /* border: 1px solid #e9ecef;
+  padding: .9em 1em; */
+  /* font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
+  padding: 0.25rem;
+  border-radius: 48.5rem;
+  border: dashed 1.5px rgb(1, 5, 1); */
+  font-size: 1.2em;
+  padding: 0.25rem;
+  border-radius: 48.5rem;
+  border: solid 1.5px #6bc76b;
+}
+
+#form > input:focus{
+  outline: none;
+  border: green solid 1px;
+}
+
+#form > .btn{
+
+  /* background-color: #161516;
+  color: #e9ecef;
+  font-size: 1.5em;
+  width: fit-content;
+  padding: 1% 5%;
+  cursor: pointer;
+  margin: 4px auto; */
+
+      /* background-color: #161516; */
+      color: #595959;
+      font-size: 1.5em;
+      width: -moz-fit-content;
+      width: fit-content;
+      padding: 1% 5%;
+      cursor: pointer;
+      margin: 4px auto
+}
+
+label{
+  text-align: left;
+  margin: 0px;
+  padding: 0%;
+  color: rgb(4, 0, 20);
+  font-weight: bold;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.register .columon-1{
+  margin: auto;
+  padding: 3em 0;
+}
+.register::before{
+  content: '';
+  position: absolute;
+  background-image: url("../public/img/log.png");
+  top: 12%;
+  left: 11%;
+  width: 12%;
+  height: 21%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section .columon-2::before{
+  content: 'Welcom To Dolingo App';
+  position: absolute;
+  color: green;
+  top: 25%;
+  left: 70%;
+  font-size: 25px;
+}
+.register .columon-2 div{
+  height: 50%;
+  
+}
+
+.register .columon-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .register .columon-2 img{
+    display: initial;
+  }
+}
+
+.instructions {
+  font-size: 0.65rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  /* bottom: -10px; */
+}
+p span{
+  color: black;
+  font-weight: bold;
+  margin-left: 3%;
+  text-decoration: none;
+}
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+

@@ -1,0 +1,568 @@
+.Locked
+{
+  filter: blur(2px) grayscale(1);
+}
+
+.home {
+  display: flex;
+  margin-bottom: 100px;
+}
+.child
+{
+  display: flex;
+  gap: 10px;
+  margin: 100px 0;
+  justify-content: center;
+}
+
+.child div 
+{
+  padding-bottom: 40px;
+  border-radius:20px ;
+  width: 400px;
+  height: 300px;
+  margin: 0px 20px 40px 20px;
+  cursor: pointer;
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+}
+
+.child div:hover {
+  /* background-color: #4e3649; */
+  transform:scale(1.1);
+}
+
+.child h2
+{
+  text-align: center;
+}
+
+.chart
+{
+  margin: 100px 0;
+  display: flex;
+  margin: 25px 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: auto;
+  gap: 10px;
+  margin: 100px 0;
+}
+
+.chapter_skills
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.chapter_skills div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-bottom: 40px; */
+  /* border-radius: 20px; */
+  margin: 35px;
+  /* height: 282px; */
+  /* margin: 0px 20px 40px 20px; */
+  height: 307px;
+  
+  transition-property: scale;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  border: 1px solid gray;
+  border-radius: 18px 29px;
+  box-shadow: 1px 1px 1px 3px gray;
+}
+
+.skills div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40px;
+  border-radius:20px ;
+  transition: transform 3s ease-in;
+  transition-property: scale;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  border-color: wheat;
+  height: 300px;
+  margin: 0px 20px 40px 20px;
+  background-color: rgb(163, 71, 5);
+  transition: box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.skills div:hover {
+  /* background-color: #5a3953; */
+  transform:scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chapter_skills div:hover {
+  /* background-color: #5a3953; */
+  transform:scale(1.1);
+
+}
+
+.skills div img{
+  height: 220px;
+  transform: none;
+  /* width: 375px;  */
+  height: inherit ;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px; 
+}
+
+.chapter_skills div img{
+  height: 220px;
+  transform: none;
+  width: 201px;
+  height: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px; 
+}
+
+.skills div h2  
+{
+  text-align: center;
+  color:black;
+}
+
+.chapter_skills div h2  
+{
+  text-align: center;
+  color:pink;
+}
+
+.skills div p  
+{
+  text-align: center;
+  color: gray;
+}
+
+.chapter_skills div p  
+{
+  text-align: center;
+  color: black(125, 230, 134);
+}
+
+.chart div{
+  padding-bottom: 40px;
+  height: 250px;
+  margin: 0px 20px 20px 20px;
+  color: black;
+}
+
+.home div{
+  height:70%;
+  display: flex;
+  width: 456px;
+  height: 474px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  margin-left: 40px;
+  border: 1px solid black;
+  border-radius: 40px 20px;
+  box-shadow: 1px 1px 1px 4px darkgray;
+
+}
+.real{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.ani{
+  animation-name: word;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+
+}
+@keyframes example {
+  from {background-color: rgb(80, 179, 55);}
+  to {background-color: yellow;
+    transform: rotate(3deg) scale(1);
+    
+  }
+}
+@keyframes word {
+  from {color: rgb(80, 179, 55);}
+  to {color: rgb(255, 102, 0);
+    
+  }
+}
+.home div img{
+  transform: none;
+  width: 56%;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px; 
+  
+}
+
+.home div:hover {
+  /* background-color: #4e3649; */
+  transform: scale(1.01) translate(1px);
+  transition: 1.5;
+  transition-timing-function: ease-in;
+  /* opacity: 0.5; */
+  box-shadow: 0px 0px 10px rgba(209, 199, 199, 0.3);
+
+
+}
+
+.home h2
+{
+  text-align: center;
+  color: gray;
+}
+
+.home h3
+{
+  text-align: center;
+  color: darkgray;
+}
+
+.home span
+{
+  text-align: center;
+  color: darkgrey;
+}
+
+.Locked img 
+{
+  transform: none;
+  width: 95%; 
+  height: 50% ;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px; 
+}
+
+.Skills-Question
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  margin: 100px 0;
+}
+
+.Skills-Question div
+{
+  padding-bottom: 40px;
+  border-radius:20px ;
+  border-color: wheat;
+  height: 300px;
+  margin: 0px 20px 40px 20px;
+  cursor: pointer;
+  background: rgb(145, 245, 14); 
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  transition: transform 0.3s ease;
+
+}
+
+.Skills-Question div:hover {
+  /* background-color: #4e3649; */
+  transform:scale(1.1);
+
+}
+
+.Skills-Question h5
+{
+  text-align: center;
+}
+
+.Skills-Question h2
+{
+  text-align: center;
+}
+
+
+.Vocabs-Question div img{
+  height: 150px;
+  transform: none;
+  /* width: 375px;  */
+  height: inherit ;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px; 
+}
+
+.Vocabs-Question
+{
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto; */
+  /* gap: 10px; */
+  margin: 30px 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Vocabs-Question div
+{
+  width: 32%;
+  padding-bottom: 40px;
+  border-radius:20px ;
+  border-color: wheat;
+  height: 300px;
+  margin: 0px 20px 40px 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly ;
+  transition: transform 0.3s ease;
+  border: 1px solid #77f79f;
+  height: fit-content;
+  height: 500px;
+
+}
+
+.Vocabs-Question div:hover {
+  /* background-color: #4e3649; */
+  transform:scale(1.1);
+
+}
+
+.Vocabs-Question h3
+{
+  text-align: center;
+  font-size: 17px;
+  color:gray;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.Vocabs-Question h2
+{
+  text-align: center;
+  padding: 20px;
+  color: #0ba10b;
+}
+
+
+.Vocabs-Question div img{
+  height: 150px;
+  transform: none;
+  /* width: 375px;  */
+  height: inherit ;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px; 
+  width:-webkit-fill-available ;
+}
+
+
+
+.text
+{
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-rows: auto; */
+  gap: 120px;
+  justify-content: space-between;
+}
+
+.text p 
+{
+  text-align: justify;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.text img
+{
+  /* max-width: 100%; */
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 35px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text div {
+  padding-bottom: 40px;
+  /* border: solid; */
+  /* border-color: wheat; */
+  height: 150px;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  /* border: ridge; */
+}
+
+.question_text
+{
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: rgb(184, 132, 132);
+  margin-bottom: 10px;
+}
+
+.score
+{
+    margin-bottom: 0px;
+    color: floralwhite;
+}
+
+.score h2
+{
+  color:black
+}
+.Choices
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Choices div
+{
+  padding-bottom: 40px;
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.reorderq
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.qdet::before{
+  content: 'Qustion Details';
+  position: relative;
+  width: 20px;
+  height: 20px;
+  color: red; 
+  top: -20%;
+ }
+ .Answer::before{
+  content: 'Answer Details';
+  position: relative;
+  color: red; 
+  top: -30%;
+ }
+ .state::before{
+  content: 'Answer ';
+  position: relative;
+  color: red; 
+  top: -30%;
+ }
+
+.reorderq div
+{
+  padding-bottom: 40px;
+  /* height: 100px; */
+  border: 1px solid darkgray;
+  border-radius: 10px 64px 18px 14px;
+  box-shadow: 1px 1px 1px 3px rgb(79, 153, 30);
+  width: 40%;
+  height: fit-content;
+  margin-top: 0px;
+  margin: 3%;
+  /* height: 200px; */
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+
+.practice
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  /* margin: 100px 0; */
+}
+
+.practice div
+{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  padding-bottom: 40px;
+  border-radius:20px ;
+  border-color: wheat;
+  height: 100px;
+  width: 200px;
+  margin: 0px 20px 40px 20px;
+  background-color: rgb(24, 186, 226);
+  cursor: pointer;
+}
+
+.practice div:hover {
+  /* background-color: #5a3953; */
+  transform:scale(1.1);
+}
+
+.practice div h2  
+{
+  text-align: center;
+  color:black;
+  font-size: 18px;
+  padding : 25px 0;
+}
+
+
+.vocabulary-group
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.vocabulary
+{
+  width: 300px;
+  height: 320px;
+  text-align: center;
+  color: black;
+  border:1px solid greenyellow;
+  border-radius: 30px;
+  margin:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.grammerDetail
+{
+  cursor: pointer;
+  color: cornflowerblue;
+}

@@ -1,0 +1,13 @@
+.chadmin{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.chadmin div{
+  border: 1px solid gray ;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 20px;
+  border-radius:20px 20px ;
+}

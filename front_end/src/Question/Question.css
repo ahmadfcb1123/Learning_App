@@ -1,0 +1,248 @@
+.ReorderingContainer
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+
+.question {
+  background-color: #58e934;
+  width: 50%;
+  min-height: 200px;
+  height: 500px;
+  border-radius: 6px;
+  padding: 65px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 350px;
+}
+
+.reorderspan{
+  margin: 0px 25px 90px;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.containerReorder {
+  background-color: #252d4a;
+  width: 450px;
+  min-height: 200px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 20px;
+  margin:100px 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.reorder 
+{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+.reorder:hover {
+  background-color: #cc0066;
+}
+
+
+.score-section {
+  display: flex;
+  font-size: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+.question-count {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  flex: 2;
+}
+
+.question-text-spaces {
+  margin-bottom: 12px;
+  font-size: 25px;
+}
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* ANSWERS/RIGHT SECTION */
+
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+
+
+.answer-section_trueFalse {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+.back-button button {
+  background-color: #ffffff;
+  color: #333333;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.back-button button:hover {
+  background-color: #992d75;
+}
+
+
+
+.reorderButton {
+  width: 50%;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #35ee07;
+  border-radius: 15px;
+  display: flex;
+  padding: 9px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+
+
+.answer-section button {
+  width: 100%;
+  font-size: 21px;
+  color: #ffffff;
+  background-color: #83404057;
+  border-radius: 40px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #234668;
+  cursor: pointer;
+}
+
+
+.answer-section button:hover {
+  background-color: #31d810;
+}
+
+
+.reorderButton:hover {
+  background-color: #0d1f02;
+}
+
+.reorderButton:focus {
+  outline: none;
+}
+
+.reorderButton svg {
+  margin-right: 5px;
+}
+
+.answer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.answer-section li {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 20px;
+}
+
+.answer-section li:hover {
+  cursor: grab;
+}
+
+.answer-section li:active {
+  cursor: grabbing;
+}
+
+
+.score-section Button 
+{
+  width : 100%;
+  align-items: flex-end;
+  background: rgb(0, 0, 0);
+  border-radius: 35px;
+  padding: 15px;
+}
